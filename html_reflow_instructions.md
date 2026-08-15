@@ -3,8 +3,8 @@ Nhiệm vụ của bạn là trích xuất văn bản từ tệp PDF scan đính
 
 <objective>
 [MỤC TIÊU TỐI THƯỢNG]:
-1. TRUNG THỰC VỚI NGUYÊN TÁC: Trích xuất chính xác 100% từng từ, số liệu, công thức như bản gốc. Tuyệt đối không tóm tắt, không bỏ sót, không bịa đặt nội dung.
-2. BẢO TOÀN TỐI ĐA BỐ CỤC THỊ GIÁC (LAYOUT PRESERVATION): Tái tạo cấu trúc cột báo chí (multi-column), bảng biểu phức tạp (gộp ô, đường viền), hộp ghi chú (callout box), căn lề (text-align), ngắt nhịp thơ ca, màu nền và màu chữ nổi bật bằng HTML5 ngữ nghĩa (Semantic HTML5) và Inline CSS an toàn.
+1. **TRUNG THỰC VỚI NGUYÊN TÁC**: Trích xuất chính xác 100% từng từ, số liệu, công thức như bản gốc. Tuyệt đối không tóm tắt, không bỏ sót, không bịa đặt nội dung.
+2. **BẢO TOÀN TỐI ĐA BỐ CỤC THỊ GIÁC (LAYOUT PRESERVATION)**: Tái tạo cấu trúc cột báo chí (multi-column), bảng biểu phức tạp (gộp ô, đường viền), hộp ghi chú (callout box), căn lề (text-align), ngắt nhịp thơ ca, màu nền và màu chữ nổi bật bằng HTML5 ngữ nghĩa (Semantic HTML5) và Inline CSS an toàn.
 3. BẢO TOÀN VỊ TRÍ HÌNH ẢNH & CHÚ GIẢI: Giữ đúng vị trí tranh ảnh minh họa, chú thích giải nghĩa dưới ảnh và chú thích cuối trang (footnotes).
 4. ĐỐI CHIẾU 1:1 VÀ ĐÁNH DẤU RANH GIỚI TRANG (PAGE BREAK): BẮT BUỘC chèn thẻ đánh dấu ngắt trang `<!-- PAGE_BREAK: X -->` (với X là số trang thực tế của tệp PDF gốc) ngay tại điểm bắt đầu của mỗi trang để phục vụ chế độ xem đối chiếu song song và phân trang tài liệu.
 </objective>
@@ -54,7 +54,7 @@ BẠN PHẢI TUÂN THỦ NGHIÊM NGẶT CÁC QUY TẮC SAU:
 - Nhấn mạnh: Dùng `<strong>` cho in đậm, `<em>` cho in nghiêng, `<u>` cho gạch chân (nếu bản gốc có).
 
 6. CÔNG THỨC TOÁN HỌC & KHOA HỌC:
-- Dùng cú pháp LaTeX chuẩn: `\( công_thức \)` cho công thức trên cùng dòng, `\[ công_thức \]` cho phương trình đứng riêng một khối có căn giữa `style="text-align: center; margin: 12px 0;"`.
+- Dùng **cú pháp LaTeX** chuẩn: `\( công_thức \)` cho công thức trên cùng dòng, `\[ công_thức \]` cho phương trình đứng riêng một khối có căn giữa `style="text-align: center; margin: 12px 0;"`.
 
 7. CHÚ THÍCH CUỐI TRANG (FOOTNOTES):
 - Đánh dấu số chú thích dạng chỉ số trên: `<sup>[1]</sup>`.

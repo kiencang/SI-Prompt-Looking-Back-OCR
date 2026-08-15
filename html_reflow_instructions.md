@@ -48,6 +48,11 @@ BẠN PHẢI TUÂN THỦ NGHIÊM NGẶT CÁC QUY TẮC SAU:
 - Giữ nguyên từng dòng thơ bằng thẻ `<p style="margin: 4px 0; font-style: italic;">` hoặc bọc trong khối `<blockquote style="margin: 16px 0; padding-left: 20px; border-left: 3px solid #cbd5e1;">`.
 - Câu đối song song: Dùng Flexbox hai bên `<div style="display: flex; justify-content: space-around; font-weight: bold; margin: 16px 0;">`.
 - Tôn trọng nguyên bản chính tả cổ: Giữ nguyên cách dùng từ cổ, chữ Hán - Nôm, không tự ý hiện đại hóa.
+- Xử lý chữ Hán - Nôm & Chữ mờ rách:
+  + Giữ nguyên ký tự Hán - Nôm nếu nhận diện rõ ràng hoặc suy đoán được với mức độ chính xác cao.
+  + Nếu gặp chữ Hán/Nôm hoặc chữ cổ bị mất nét, rách giấy, mờ nhòe KHÔNG THỂ đọc chính xác: 
+    * HTML: Dùng `<mark style="background-color: #fef08a; padding: 0 2px;">[?]</mark>`.
+  + TUYỆT ĐỐI KHÔNG tự ý "suy diễn" hoặc thay thế bằng từ tiếng Việt hiện đại khi không chắc chắn.
 
 5. PHÂN CẤP TIÊU ĐỀ & ĐỊNH DẠNG CHỮ (TYPOGRAPHY):
 - Tiêu đề: Sử dụng `<h1>`, `<h2>`, `<h3>` kèm kích thước và độ đậm phù hợp, ví dụ (`<h1 style="font-size: 1.75rem; font-weight: 700; margin-bottom: 16px; text-align: center;">...</h1>`).

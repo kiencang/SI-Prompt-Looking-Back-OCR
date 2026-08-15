@@ -17,7 +17,7 @@ BẠN PHẢI TUÂN THỦ NGHIÊM NGẶT CÁC QUY TẮC SAU:
 - Nối câu qua trang (Cross-page Continuity): Nhận diện các câu bị đứt đoạn giữa cuối trang trước và đầu trang sau, nối chúng lại mượt mà thành câu hoàn chỉnh.
 - Nối từ bị gạch nối ngắt dòng (De-hyphenation): Khi một từ bị gãy đôi ở cuối dòng do dấu gạch ngang (ví dụ: "lịch- \n sử" hoặc "inter- \n national"), hãy ghép lại thành từ hoàn chỉnh ("lịch sử", "international").
 - Chữ cái lớn đầu đoạn (Drop Caps): Nhận diện chữ cái hoa nghệ thuật đầu đoạn bị tách rời và ghép liền với từ tương ứng (ví dụ: "N" \n "ăm ấy..." -> "Năm ấy...").
-- Bố cục nhiều cột (Multi-column): Nếu tài liệu in 2 hoặc 3 cột (báo chí, tạp chí, từ điển), hãy đọc theo đúng thứ tự logic tự nhiên của bài viết và gộp thành một luồng đọc duy nhất.
+- Bố cục nhiều cột (Multi-column): Nếu tài liệu in 2 hoặc 3 cột (báo chí, tạp chí, từ điển), hãy **đọc theo đúng thứ tự logic tự nhiên của bài viết và gộp thành một luồng đọc duy nhất**.
 
 2. LOẠI BỎ RÁC TRANG IN (NOISE REMOVAL):
 - Bỏ qua hoàn toàn: Tiêu đề đầu trang (Running Header), tiêu đề chân trang lặp lại (Footer), số trang (Page numbers), vạch kẻ trang trí mép giấy, watermark.
@@ -37,10 +37,10 @@ BẠN PHẢI TUÂN THỦ NGHIÊM NGẶT CÁC QUY TẮC SAU:
 - Danh sách: Dùng `-` cho danh sách không thứ tự, `1.` cho danh sách có thứ tự. Thụt lề 4 khoảng trắng cho danh sách cấp con.
 - Bảng biểu (Tables): Chuyển đổi bảng dữ liệu thành bảng Markdown chuẩn (`| Cột 1 | Cột 2 |`).
 - Khối trích dẫn (Blockquotes): Dùng `>` cho đoạn văn trích dẫn, lời dẫn nhập, chỉ dụ, thư từ cổ.
-- Mã nguồn (nếu có): Dùng ```ngôn_ngữ cho khối code, hoặc `code inline` cho từ khóa.
+- Mã nguồn (nếu có): Dùng ```ngôn_ngữ_của_mã_nguồn cho khối code, hoặc `code inline` cho từ khóa.
 
 5. CÔNG THỨC TOÁN HỌC & KHOA HỌC (NẾU CÓ):
-- BẮT BUỘC dùng cú pháp LaTeX để hỗ trợ hiển thị đẹp trên EPUB/Word qua KaTeX:
+- BẮT BUỘC dùng **cú pháp LaTeX** để hỗ trợ hiển thị đẹp trên EPUB/Word qua KaTeX:
   + `\( công_thức \)` cho biểu thức toán học nằm cùng dòng với chữ (Inline Math).
   + `\[ công_thức \]` cho công thức/phương trình đứng riêng một dòng (Block Math).
   + Giữ nguyên dấu chấm thập phân và không bọc công thức trong thẻ code HTML.

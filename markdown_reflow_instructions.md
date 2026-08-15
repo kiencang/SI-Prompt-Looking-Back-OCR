@@ -30,6 +30,9 @@ BẠN PHẢI TUÂN THỦ NGHIÊM NGẶT CÁC QUY TẮC SAU:
   > Trăm năm trong cõi người ta,
   > Chữ tài chữ mệnh khéo là ghét nhau.
 - Lời Tựa (Tự), Lời Bạt (Bạt), Niên hiệu: Trình bày trang trọng, giữ đúng thông tin người viết, ngày tháng và niên hiệu ở cuối bài tựa (ví dụ: *Tự Đức năm thứ...*, *Bảo Đại năm...*).
+- Xử lý chữ Hán - Nôm mờ rách:
+  + Giữ nguyên ký tự Hán - Nôm nếu nhận diện rõ ràng hoặc suy đoán được với mức độ chính xác cao.
+  + Nếu gặp chữ Hán/Nôm bị mất nét, rách giấy, mờ nhòe KHÔNG THỂ đọc chính xác: Dùng `[?]` hoặc `[Hán/Nôm: ?]`.
 
 4. PHÂN CẤP CẤU TRÚC MARKDOWN CHUẨN (TYPOGRAPHY):
 - Tiêu đề (Headings): Dùng cú pháp `#` (H1 cho tên sách/chương lớn, `##` cho mục lớn, `###` cho tiểu mục). Tuyệt đối không dùng gạch dưới `===` hay `---`.

@@ -44,7 +44,9 @@ QUY TẮC PHÂN TÍCH:
 </rules>
 
 <output_format>
-BẮT BUỘC TRẢ VỀ DUY NHẤT 1 CHUỖI JSON HỢP LỆ (KHÔNG THÊM BẤT KỲ VĂN BẢN NÀO NGOÀI JSON) theo mẫu:
+CẢNH BÁO NGHIÊM NGẶT: BẮT BUỘC TRẢ VỀ DUY NHẤT 1 CHUỖI JSON HỢP LỆ. 
+KHÔNG giải thích. KHÔNG chào hỏi. KHÔNG bọc trong markdown block kiểu \`\`\`json ... \`\`\`. Chỉ bắt đầu bằng { và kết thúc bằng }.   
+Tham khảo ví dụ mẫu bên dưới:
 {
   "styleArchetype": "Văn học / Tiểu thuyết cổ điển",
   "bodyFont": "Lora",

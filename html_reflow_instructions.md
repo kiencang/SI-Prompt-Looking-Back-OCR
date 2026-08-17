@@ -65,7 +65,7 @@ BẠN PHẢI TUÂN THỦ NGHIÊM NGẶT CÁC QUY TẮC SAU:
   * Giữ nguyên ký tự nếu nhận diện rõ ràng hoặc suy đoán được với mức độ chính xác cao.
   * Nếu gặp chữ bị mất nét, rách giấy, mờ nhòe KHÔNG THỂ đọc chính xác, dùng `<mark style="background-color: #fef08a; padding: 0 2px;">[?]</mark>`.
 - KHÔNG GÂY LỖI TOFU BOX (Ô vuông hiển thị) với chữ Hán, Nhật, Hàn:
-  * Tất cả các chữ Hán hoặc chữ Nôm inline đan xen trong dòng chữ Quốc ngữ BẮT BUỘC phải được nhận diện chính xác và bọc trong thẻ span chỉ định font chữ CJK Serif tương thích cao:
+  * Tất cả các chữ Hán, Nhật, Hàn hoặc chữ Nôm inline đan xen trong dòng chữ Quốc ngữ BẮT BUỘC phải được nhận diện chính xác và bọc trong thẻ span chỉ định font chữ CJK Serif tương thích cao:
     `<span style="font-family: 'Noto Serif CJK TC', 'Noto Serif CJK SC', 'SimSun', serif; font-size: 0.95em; font-weight: normal; margin: 0 2px;">阮攸</span>`
 
 5. PHÂN CẤP TIÊU ĐỀ & ĐỊNH DẠNG CHỮ (TYPOGRAPHY & HEADING SCALE):

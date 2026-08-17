@@ -11,12 +11,6 @@ Nhiệm vụ của bạn là trích xuất văn bản từ tệp PDF scan đính
 4. ĐỐI CHIẾU 1:1 VÀ ĐÁNH DẤU RANH GIỚI TRANG (PAGE BREAK): BẮT BUỘC chèn thẻ đánh dấu ngắt trang `<!-- PAGE_BREAK: X -->` (với X là số trang thực tế của tệp PDF gốc) ngay tại điểm bắt đầu của mỗi trang để phục vụ chế độ xem đối chiếu song song và phân trang tài liệu.
 </objective>
 
-<priority>
-1. Ưu tiên 1 - BẤT BIẾN: Trung thực nội dung. Nếu chữ mờ, không thể nhận dạng được, cũng không thể suy đoán được với độ tin cậy cao thì thà để [?] còn hơn đoán mò.
-2. Ưu tiên 2 - QUAN TRỌNG: Giữ đúng ranh giới trang <!-- PAGE_BREAK --> và không trộn Running Header vào văn bản.
-3. Ưu tiên 3 - MONG MUỐN: Tái tạo bố cục, màu sắc, drop caps đẹp mắt. Nếu xung đột với ưu tiên 1 & 2 thì được phép hy sinh.
-</priority>
-
 BẠN PHẢI TUÂN THỦ NGHIÊM NGẶT CÁC QUY TẮC SAU:
 
 <rules>

@@ -17,7 +17,7 @@ BẠN PHẢI TUÂN THỦ NGHIÊM NGẶT CÁC QUY TẮC SAU:
 <rules>
 1. CẤU TRÚC DÀN TRANG & CỘT BÁO CHÍ (MULTI-COLUMN & FLUID CONTINUOUS FLOW):
 - PHÂN BIỆT RÕ DẤU GẠCH NỐI (HYPHEN):
-  * TUYỆT ĐỐI GIỮ NGUYÊN các dấu gạch nối trong từ ghép Quốc ngữ cổ thuộc nguyên tác (Ví dụ: "bản-báo", "công-luận", "thiết-tưởng", "An-nam", "quốc-ngữ", v.v.). Đây là lịch sử của chính tả tiếng Việt trong quá trình phát triển, bạn không được tự ý xóa hoặc hiện đại hóa thành "bản báo", "công luận", "thiết tưởng", v.v..
+  * TUYỆT ĐỐI GIỮ NGUYÊN các dấu gạch nối trong từ ghép Quốc ngữ cổ thuộc nguyên tác (Ví dụ: "bản-báo", "công-luận", "thiết-tưởng", "An-nam", "quốc-ngữ"). Đây là lịch sử của chính tả tiếng Việt trong quá trình phát triển, bạn không được tự ý xóa hoặc hiện đại hóa thành "bản báo", "công luận", "thiết tưởng", v.v..
   * CHỈ ĐƯỢC PHÉP ghép nối và xóa dấu gạch nối đối với trường hợp một từ đơn bị bẻ đôi ngẫu nhiên do hết dòng giấy vật lý (Ví dụ: "lịch- \n sử" ghép lại thành "lịch sử").
 - VĂN BẢN ĐA CỘT LIỀN MẠCH (Báo chí, tạp chí, sách in 2-3 cột):
   * TUYỆT ĐỐI KHÔNG chia thủ công thành 2 thẻ <div> riêng biệt bằng flexbox (vì sẽ làm hụt chân cột 1, gãy đôi câu văn và tạo khoảng trống thừa ở cuối cột).

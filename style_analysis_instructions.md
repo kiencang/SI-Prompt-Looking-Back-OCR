@@ -42,8 +42,8 @@ Quy tắc: `headingFont` chọn theo nét chữ gốc (có thể là Serif, Sans
 | "Alegreya" (Humanist Serif) | Thư pháp, nhịp điệu mềm mại | "Plus Jakarta Sans" hoặc "Be Vietnam Pro" | Giữ nhịp điệu thi vị, tạo trải nghiệm đọc êm ái cho mắt. |
 | "Merriweather" (Sturdy Serif) | Dày dặn, tương phản cao | "Inter" hoặc "Roboto" | Trung hòa độ nặng của tiêu đề, giúp thân bài thông thoáng, sắc nét. |
 | "Montserrat" (Geometric Sans) | Vững chãi, hình học, góc cạnh | "Inter" hoặc "Be Vietnam Pro" | Cặp đôi Sans-serif tương phản chuẩn mực (Display Sans kết hợp Body Sans) cho tài liệu hiện đại. |
-| "Be Vietnam Pro" (Neo-Grotesque) | Hiện đại, hài hòa, thuần Việt | "Be Vietnam Pro" | Phong cách đơn sắc hiện đại (Monochromatic Sans), tối ưu tính liền mạch. |
-| "Plus Jakarta Sans" (Geometric) | Thanh lịch, trẻ trung | "Plus Jakarta Sans" hoặc "Inter" | Phong cách hiện đại, tạo không gian đọc thoáng đãng. |
+| "Be Vietnam Pro" (Neo-Grotesque Sans) | Hiện đại, hài hòa, thuần Việt | "Be Vietnam Pro" | Phong cách đơn sắc hiện đại (Monochromatic Sans), tối ưu tính liền mạch. |
+| "Plus Jakarta Sans" (Modern Geometric Sans) | Thanh lịch, trẻ trung | "Plus Jakarta Sans" hoặc "Inter" | Phong cách hiện đại, tạo không gian đọc thoáng đãng. |
 | "Inter" (Screen-first Sans) | Trung tính, rất sắc nét | "Inter" hoặc "Be Vietnam Pro" | Phong cách quốc tế sắc sảo, công thái học hiển thị màn hình tối đa. |
 | "Roboto" (Transitional Sans) | Trung tính, giáo khoa | "Roboto" hoặc "Inter" | Rõ ràng, bình dị, dễ tiếp cận cho tài liệu hướng dẫn. |
 | "JetBrains Mono" (Monospace) | Kỹ thuật, mã nguồn | "Inter" hoặc "Be Vietnam Pro" | Tương phản chuẩn mực giữa tiêu đề kỹ thuật với thân bài không chân mượt mà, dễ đọc. |

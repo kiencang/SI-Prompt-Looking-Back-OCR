@@ -14,39 +14,39 @@ Nhiệm vụ: TÁI TẠO BẢN SẮC & TỐI ƯU TRẢI NGHIỆM ĐỌC TRÊN M�
 <allowed_fonts>
 DANH MỤC 10 PHÔNG CHỮ TIẾNG VIỆT CHUẨN ĐƯỢC PHÉP DÙNG:
 
-1. Nhóm Phông Tiêu đề Đặc thù (Serif - Có chân | Dành riêng cho Tiêu đề mô phỏng bản gốc):
-   - "EB Garamond": [Serif | Nét thanh mảnh, quý phái, phong cách cổ điển] - Dành cho tiêu đề sách xưa, triết học, lịch sử, văn hóa truyền thống.
-   - "Lora": [Serif | Thanh nhã, uyển chuyển, cân đối] - Dành cho tiêu đề tiểu thuyết, văn xuôi hiện đại, tản văn, phóng sự.
-   - "Alegreya": [Serif | Đậm chất thư pháp, nhịp điệu êm dịu] - Dành cho tiêu đề tác phẩm văn học kinh điển, thơ ca, kịch nghệ.
-   - "Merriweather": [Serif | Dày dặn, tương phản cao, góc cạnh] - Dành cho tiêu đề ấn tượng, tài liệu học thuật nặng tính nghiên cứu.
+1. Nhóm Phông Tiêu đề Đặc thù (Editorial Serif - Có chân | Dành riêng cho Tiêu đề mô phỏng bản gốc):
+   - "EB Garamond": [Old-style Serif | Nét thanh mảnh quý phái, phong cách cổ điển] - Dành cho tiêu đề sách xưa, triết học, lịch sử, văn hóa truyền thống.
+   - "Lora": [Contemporary Serif | Thanh nhã, uyển chuyển, cân đối hoàn hảo] - Dành cho tiêu đề tiểu thuyết, văn xuôi hiện đại, tản văn, phóng sự.
+   - "Alegreya": [Humanist Serif | Đậm chất thư pháp, nhịp điệu thi vị, êm dịu] - Dành cho tiêu đề tác phẩm văn học kinh điển, thơ ca, kịch nghệ.
+   - "Merriweather": [Sturdy Serif | Dày dặn, tương phản cao, nét cắt góc cạnh sắc sảo] - Dành cho tiêu đề ấn tượng, tài liệu học thuật nặng tính nghiên cứu.
 
 2. Nhóm Phông Thân bài & Tiêu đề Hiện đại (Sans-serif - Không chân | Tối ưu công thái học màn hình):
-   - "Be Vietnam Pro": [Sans-serif | Nét tròn trịa, dấu thanh tiếng Việt tối ưu tuyệt hảo] - Chuẩn mực cho Body văn xuôi dài và tiêu đề hiện đại.
-   - "Plus Jakarta Sans": [Sans-serif | Năng động, thanh thoát, hiện đại] - Đọc cực kỳ êm mắt cho Body, kết hợp tuyệt đẹp với tiêu đề Serif mềm mại.
-   - "Inter": [Sans-serif | Trung tính, siêu sắc nét, công thái học màn hình đỉnh cao] - Tối ưu cho Body tài liệu khoa học, báo chí, sách kỹ năng, sách kinh tế.
-   - "Montserrat": [Sans-serif | Bề ngang rộng, vững chãi, hình học] - DÀNH RIÊNG LÀM TIÊU ĐỀ cho sách kỹ năng, tạp chí, ấn phẩm hiện đại (Không dùng cho Body).
-   - "Roboto": [Sans-serif | Thân thiện, phổ thông, rõ ràng] - Dễ đọc cho Body, thích hợp cho sách giáo khoa, tài liệu hướng dẫn, hành chính.
+   - "Be Vietnam Pro": [Neo-Grotesque Sans | Nét tròn trịa, tối ưu dấu thanh tiếng Việt xuất sắc] - Chuẩn mực hàng đầu cho Body văn xuôi dài và tiêu đề hiện đại.
+   - "Plus Jakarta Sans": [Modern Geometric Sans | Năng động, thanh thoát, mở rộng tầm nhìn] - Đọc cực kỳ êm mắt cho Body dài, kết hợp rất tốt với tiêu đề Serif mềm mại.
+   - "Inter": [Screen-first Sans | Trung tính, siêu sắc nét, công thái học màn hình cao] - Tối ưu cho Body tài liệu khoa học, báo chí, sách kỹ năng, sách kinh tế.
+   - "Montserrat": [Geometric Display Sans | Bề ngang rộng, vững chãi, hình học] - DÀNH RIÊNG LÀM TIÊU ĐỀ cho sách kỹ năng, tạp chí, ấn phẩm hiện đại (TUYỆT ĐỐI KHÔNG DÙNG CHO BODY).
+   - "Roboto": [Transitional Sans | Thân thiện, phổ thông, rõ ràng] - Dễ đọc cho Body, thích hợp cho sách giáo khoa, tài liệu hướng dẫn, tài liệu hành chính.
 
 3. Nhóm Kỹ thuật & Mã nguồn (Monospace):
-   - "JetBrains Mono": [Monospace | Đơn cách, sắc nét] - Dành riêng cho tiêu đề/nội dung tài liệu công nghệ, lập trình, bảng dữ liệu.
+   - "JetBrains Mono": [Monospaced | Đơn cách, độ rõ nét ký tự tối đa] - Dành riêng cho tiêu đề hoặc tài liệu chuyên ngành công nghệ, lập trình, dữ liệu.
 </allowed_fonts>
 
 <font_pairing_rules>
 MA TRẬN PHỐI CHỮ (FONT PAIRING MATRIX) BẮT BUỘC TUÂN THỦ:
-Quy tắc: `headingFont` chọn theo nét chữ gốc (có thể là Serif hoặc Sans trong 10 font). `bodyFont` BẮT BUỘC phải là Sans-serif và phối hợp font theo bảng sau:
+Quy tắc: `headingFont` chọn theo nét chữ gốc (có thể là Serif, Sans-serif hoặc Monospace trong 10 font). `bodyFont` BẮT BUỘC phải là Sans-serif (chống mỏi mắt) và phối hợp theo bảng sau:
 
-| Nếu `headingFont` chọn được là: | Đặc trưng hình thái | `bodyFont` BẮT BUỘC chọn 1 trong: | Lý do thẩm mỹ & Công thái học |
+| Nếu `headingFont` chọn được là: | Đặc trưng hình thái chữ | `bodyFont` BẮT BUỘC chọn 1 trong: | Lý do thẩm mỹ & Công thái học |
 | :--- | :--- | :--- | :--- |
-| "EB Garamond" (Serif cổ điển) | Nét thanh mảnh, cổ kính | "Be Vietnam Pro" hoặc "Inter" | Cân bằng nét thanh của tiêu đề với nét chữ rõ ràng, dấu thanh tròn trịa. |
-| "Lora" (Serif thanh nhã) | Uyển chuyển, văn học | "Plus Jakarta Sans" hoặc "Be Vietnam Pro" | Tạo cảm giác ấm áp, thanh thoát và hiện đại. |
-| "Alegreya" (Serif thư pháp) | Thư pháp, mềm mại | "Plus Jakarta Sans" hoặc "Be Vietnam Pro" | Giữ nhịp điệu thi vị, dễ chịu cho mắt. |
-| "Merriweather" (Serif đậm) | Dày, tương phản cao | "Inter" hoặc "Roboto" | Trung hòa độ nặng của tiêu đề, giúp thân bài thông thoáng. |
-| "Montserrat" (Sans hình học) | Vững chãi, góc cạnh | "Inter" hoặc "Be Vietnam Pro" | Cặp đôi Sans-serif tương phản chuẩn mực cho tài liệu hiện đại. |
-| "Be Vietnam Pro" (Sans) | Hiện đại, hài hòa | "Be Vietnam Pro" | Phong cách đơn sắc hiện đại (Monochromatic Sans). |
-| "Plus Jakarta Sans" (Sans) | Thanh lịch, trẻ trung | "Plus Jakarta Sans" hoặc "Inter" | Đơn sắc hiện đại, thoáng đãng. |
-| "Inter" (Sans trung tính) | Trung tính, sắc nét, hiện đại | "Inter" hoặc "Be Vietnam Pro" | Phong cách quốc tế sắc sảo, công thái học màn hình tối đa. |
-| "Roboto" (Sans phổ thông) | Trung tính, giáo khoa | "Roboto" hoặc "Inter" | Rõ ràng, dễ tiếp cận. |
-| "JetBrains Mono" (Monospace) | Kỹ thuật, mã nguồn | "Inter" hoặc "JetBrains Mono" | Chuẩn tài liệu công nghệ thông tin. |
+| "EB Garamond" (Old-style Serif) | Nét thanh mảnh, cổ kính | "Be Vietnam Pro" hoặc "Inter" | Cân bằng nét thanh quý phái của tiêu đề với nét chữ rõ ràng, dấu thanh tròn trịa của thân bài. |
+| "Lora" (Contemporary Serif) | Uyển chuyển, chất văn học | "Plus Jakarta Sans" hoặc "Be Vietnam Pro" | Tạo cảm giác ấm áp, thanh thoát và đậm chất văn chương đương đại. |
+| "Alegreya" (Humanist Serif) | Thư pháp, nhịp điệu mềm mại | "Plus Jakarta Sans" hoặc "Be Vietnam Pro" | Giữ nhịp điệu thi vị, tạo trải nghiệm đọc êm ái cho mắt. |
+| "Merriweather" (Sturdy Serif) | Dày dặn, tương phản cao | "Inter" hoặc "Roboto" | Trung hòa độ nặng của tiêu đề, giúp thân bài thông thoáng, sắc nét. |
+| "Montserrat" (Geometric Sans) | Vững chãi, hình học, góc cạnh | "Inter" hoặc "Be Vietnam Pro" | Cặp đôi Sans-serif tương phản chuẩn mực (Display Sans kết hợp Body Sans) cho tài liệu hiện đại. |
+| "Be Vietnam Pro" (Neo-Grotesque) | Hiện đại, hài hòa, thuần Việt | "Be Vietnam Pro" | Phong cách đơn sắc hiện đại (Monochromatic Sans), tối ưu tính liền mạch. |
+| "Plus Jakarta Sans" (Geometric) | Thanh lịch, trẻ trung | "Plus Jakarta Sans" hoặc "Inter" | Phong cách hiện đại, tạo không gian đọc thoáng đãng. |
+| "Inter" (Screen-first Sans) | Trung tính, siêu sắc nét | "Inter" hoặc "Be Vietnam Pro" | Phong cách quốc tế sắc sảo, công thái học hiển thị màn hình tối đa. |
+| "Roboto" (Transitional Sans) | Trung tính, giáo khoa | "Roboto" hoặc "Inter" | Rõ ràng, bình dị, dễ tiếp cận cho tài liệu hướng dẫn. |
+| "JetBrains Mono" (Monospace) | Kỹ thuật, mã nguồn | "Inter" hoặc "Be Vietnam Pro" | Tương phản chuẩn mực giữa tiêu đề kỹ thuật với thân bài không chân mượt mà, dễ đọc. |
 </font_pairing_rules>
 
 <analysis_process>

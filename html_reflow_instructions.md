@@ -112,7 +112,7 @@ Lưu ý rằng các mẫu đường kẻ ở trên chỉ là gợi ý tốt, ch�
   * Chữ hằn/thấu quang từ mặt sau (Show-through / Bleed-through).
   * Bóng tối gáy sách và đường cong mép giấy (Gutter / Spine Shadows & Page Curl).
   * Chữ viết tay ghi chú ngoài lề (Marginalia / Handwritten Notes).
-  * Dấu mộc thư viện, tem lưu trữ và mã vạch bảo tồn (Library Stamps, Archival Marks & Barcodes).
+  * Dấu mộc thư viện, tem lưu trữ và tem mã vạch quản lý thư viện (Library Stamps, Archival Marks & Library Barcodes).
   * Đốm ố vàng, mốc thời gian, bụi bẩn quang học (Foxing, Age Stains & Dust Specks).
   * Vệt rỉ bấm kim, vết băng dính ố vàng và bóng ngón tay giữ sách (Staple Rust, Tape Residue & Finger Occlusion).
 - Nguyên tắc cốt lõi: Chỉ tập trung nhận diện chính xác 100% phần nội dung in chính thống của nguyên tác (Primary Editorial Content), tuyệt đối không để lọt các tạp âm trên vào mã HTML.  

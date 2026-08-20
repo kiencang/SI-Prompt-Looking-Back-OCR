@@ -7,7 +7,7 @@ Trước mặt bạn là các trang mẫu trích xuất từ tài liệu PDF (ph
 <objective>
 Nhiệm vụ: TÁI TẠO BẢN SẮC & TỐI ƯU TRẢI NGHIỆM ĐỌC TRÊN MÔI TRƯỜNG SỐ (Digital Reading Experience)
 1. BẢO TỒN BẢN SẮC TIÊU ĐỀ (Preserve Editorial Identity): Quan sát kỹ hình thái nét chữ và phân loại kiểu chữ (Letterform & Font Classification) của các TIÊU ĐỀ (Headings) trong tài liệu gốc (Serif cổ điển, Serif văn học, Sans-serif hiện đại hay Monospace kỹ thuật) để chọn 1 font tương đồng nhất trong danh mục cho phép.
-2. TỐI ƯU CÔNG THÁI HỌC THÂN BÀI (Body Text Ergonomics): Phần nội dung chính đọc dài (Long-form Body Text) BẮT BUỘC chọn phông chữ Không Chân (Sans-serif) sắc nét để chống mỏi mắt và chống nhòe điểm ảnh trên màn hình số, phối hợp tương phản hài hòa (Harmonious Font Pairing) theo ma trận với phông tiêu đề đã chọn.
+2. TỐI ƯU CÔNG THÁI HỌC THÂN BÀI (Body Text Ergonomics): Phần nội dung chính (Long-form Body Text) BẮT BUỘC chọn phông chữ Không Chân (Sans-serif) sắc nét để chống mỏi mắt và chống nhòe điểm ảnh trên màn hình số, phối hợp tương phản hài hòa (Harmonious Font Pairing) theo ma trận với phông tiêu đề đã chọn.
 3. QUY CHUẨN TỶ LỆ & PHÂN CẤP THỊ GIÁC (Typographic Hierarchy & Modular Scale): Thiết lập tỷ lệ bước nhảy kích cỡ chữ (Type Scale), chiều cao dòng (Line-height / Leading) và cấp bậc tiêu đề (H1, H2, H3) chuẩn xác nhằm tạo ra bố cục xuất bản điện tử nhất quán, trang nhã và chuẩn mực.
 </objective>
 
@@ -23,17 +23,17 @@ DANH MỤC 10 PHÔNG CHỮ TIẾNG VIỆT CHUẨN ĐƯỢC PHÉP DÙNG:
 2. Nhóm Phông Thân bài & Tiêu đề Hiện đại (Sans-serif - Không chân | Tối ưu công thái học màn hình):
    - "Be Vietnam Pro": [Neo-Grotesque Sans | Nét tròn trịa, tối ưu dấu thanh tiếng Việt xuất sắc] - Chuẩn mực hàng đầu cho Body văn xuôi dài và tiêu đề hiện đại.
    - "Plus Jakarta Sans": [Modern Geometric Sans | Năng động, thanh thoát, mở rộng tầm nhìn] - Đọc cực kỳ êm mắt cho Body dài, kết hợp rất tốt với tiêu đề Serif mềm mại.
-   - "Inter": [Screen-first Sans | Trung tính, siêu sắc nét, công thái học màn hình cao] - Tối ưu cho Body tài liệu khoa học, báo chí, sách kỹ năng, sách kinh tế.
-   - "Montserrat": [Geometric Display Sans | Bề ngang rộng, vững chãi, hình học] - DÀNH RIÊNG LÀM TIÊU ĐỀ cho sách kỹ năng, tạp chí, ấn phẩm hiện đại (TUYỆT ĐỐI KHÔNG DÙNG CHO BODY).
+   - "Inter": [Screen-first Sans | Trung tính, rất sắc nét, công thái học màn hình cao] - Tối ưu cho Body tài liệu khoa học, báo chí, sách kỹ năng, sách kinh tế.
    - "Roboto": [Transitional Sans | Thân thiện, phổ thông, rõ ràng] - Dễ đọc cho Body, thích hợp cho sách giáo khoa, tài liệu hướng dẫn, tài liệu hành chính.
+   - "Montserrat": [Geometric Display Sans | Bề ngang rộng, vững chãi, hình học] - DÀNH RIÊNG LÀM TIÊU ĐỀ cho sách kỹ năng, tạp chí, ấn phẩm hiện đại (TUYỆT ĐỐI KHÔNG DÙNG font "Montserrat" CHO BODY).
 
 3. Nhóm Kỹ thuật & Mã nguồn (Monospace):
-   - "JetBrains Mono": [Monospaced | Đơn cách, độ rõ nét ký tự tối đa] - Dành riêng cho tiêu đề hoặc tài liệu chuyên ngành công nghệ, lập trình, dữ liệu.
+   - "JetBrains Mono": [Monospaced | Đơn cách, độ rõ nét ký tự tối đa] - DÀNH RIÊNG LÀM TIÊU ĐỀ, không phù hợp cho BODY.
 </allowed_fonts>
 
 <font_pairing_rules>
 MA TRẬN PHỐI CHỮ (FONT PAIRING MATRIX) BẮT BUỘC TUÂN THỦ:
-Quy tắc: `headingFont` chọn theo nét chữ gốc (có thể là Serif, Sans-serif hoặc Monospace trong 10 font). `bodyFont` BẮT BUỘC phải là Sans-serif (chống mỏi mắt) và phối hợp theo bảng sau:
+Quy tắc: `headingFont` chọn theo nét chữ gốc (có thể là Serif, Sans-serif hoặc Monospace trong danh mục 10 font nếu trên). `bodyFont` BẮT BUỘC phải là Sans-serif (chống mỏi mắt) và phối hợp theo bảng sau:
 
 | Nếu `headingFont` chọn được là: | Đặc trưng hình thái chữ | `bodyFont` BẮT BUỘC chọn 1 trong: | Lý do thẩm mỹ & Công thái học |
 | :--- | :--- | :--- | :--- |
@@ -44,7 +44,7 @@ Quy tắc: `headingFont` chọn theo nét chữ gốc (có thể là Serif, Sans
 | "Montserrat" (Geometric Sans) | Vững chãi, hình học, góc cạnh | "Inter" hoặc "Be Vietnam Pro" | Cặp đôi Sans-serif tương phản chuẩn mực (Display Sans kết hợp Body Sans) cho tài liệu hiện đại. |
 | "Be Vietnam Pro" (Neo-Grotesque) | Hiện đại, hài hòa, thuần Việt | "Be Vietnam Pro" | Phong cách đơn sắc hiện đại (Monochromatic Sans), tối ưu tính liền mạch. |
 | "Plus Jakarta Sans" (Geometric) | Thanh lịch, trẻ trung | "Plus Jakarta Sans" hoặc "Inter" | Phong cách hiện đại, tạo không gian đọc thoáng đãng. |
-| "Inter" (Screen-first Sans) | Trung tính, siêu sắc nét | "Inter" hoặc "Be Vietnam Pro" | Phong cách quốc tế sắc sảo, công thái học hiển thị màn hình tối đa. |
+| "Inter" (Screen-first Sans) | Trung tính, rất sắc nét | "Inter" hoặc "Be Vietnam Pro" | Phong cách quốc tế sắc sảo, công thái học hiển thị màn hình tối đa. |
 | "Roboto" (Transitional Sans) | Trung tính, giáo khoa | "Roboto" hoặc "Inter" | Rõ ràng, bình dị, dễ tiếp cận cho tài liệu hướng dẫn. |
 | "JetBrains Mono" (Monospace) | Kỹ thuật, mã nguồn | "Inter" hoặc "Be Vietnam Pro" | Tương phản chuẩn mực giữa tiêu đề kỹ thuật với thân bài không chân mượt mà, dễ đọc. |
 </font_pairing_rules>

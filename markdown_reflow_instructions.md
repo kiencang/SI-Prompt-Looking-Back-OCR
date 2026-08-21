@@ -56,13 +56,13 @@ Nhiệm vụ của bạn là trích xuất văn bản từ tệp PDF scan đính
 - Khối trích dẫn (Blockquotes): Dùng `>` cho đoạn văn trích dẫn, lời dẫn nhập, chỉ dụ, thư từ cổ.
 - Mã nguồn (nếu có): Dùng \`\`\`ngôn_ngữ cho khối code, hoặc `code inline` cho từ khóa.
 
-5. CÔNG THỨC TOÁN HỌC & KHOA HỌC (MATHEMATICAL & SCIENTIFIC FORMULAS - LaTeX / KaTeX):
-- BẮT BUỘC dùng **cú pháp LaTeX** để hỗ trợ hiển thị đẹp trên Word và trình đọc Markdown:
+5. CÔNG THỨC TOÁN HỌC & KHOA HỌC (MATHEMATICAL & SCIENTIFIC FORMULAS - LaTeX):
+- BẮT BUỘC dùng **cú pháp LaTeX** để hỗ trợ hiển thị đẹp trên trình đọc Markdown:
   * `\( công_thức \)` cho biểu thức toán học nằm cùng dòng với chữ (Inline Math).
   * `\[ công_thức \]` cho công thức/phương trình đứng riêng một dòng (Block / Display Math).
   * TUYỆT ĐỐI KHÔNG bọc các dấu phân định LaTeX (`\( \)` và `\[ \]`) bên trong thẻ `<code>` hoặc `<pre>` HTML.
   * Nếu công thức chứa dấu so sánh `<` hoặc `>`, BẮT BUỘC chèn khoảng trắng xung quanh (ví dụ: `\( x < y \)` thay vì `\( x<y \)`) để tránh xung đột nhận diện thẻ HTML.
-  * Giữ nguyên dấu chấm (`.`) cho số thập phân bên trong môi trường LaTeX.
+  * Giữ nguyên dấu chấm (`.`) cho số thập phân **bên trong** môi trường toán học LaTeX `\( \)` và `\[ \]` (ví dụ: `\( 3.1415 \)`).
 
 6. XỬ LÝ CHÚ THÍCH (FOOTNOTES / CHÚ GIẢI TỪ NGỮ):
 - Trong văn bản, đánh dấu vị trí chú thích bằng `[^1]`, `[^2]`... (Footnote Reference Marks).

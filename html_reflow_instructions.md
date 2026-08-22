@@ -86,7 +86,7 @@ Nếu phát hiện trong tài liệu gốc có các biểu thức, phương trì
 - DẤU PHẨY/CHẤM THẬP PHÂN (Decimal Notation in Math Mode):
   * Giữ nguyên dấu chấm (`.`) cho số thập phân **bên trong** môi trường toán học LaTeX `\( \)` và `\[ \]` (ví dụ: `\( 3.1415 \)`).
 
-8. CHÚ THÍCH CUỐI TRANG & TIÊU ĐỀ LẶP ĐẦU TRANG (FOOTNOTES, RUNNING HEADERS & FOLIOS):
+8. CHÚ THÍCH CUỐI TRANG, TIÊU ĐỀ LẶP ĐẦU TRANG & SỐ TRANG (FOOTNOTES, RUNNING HEADERS & FOLIOS):
 - KÝ HIỆU CHÚ THÍCH TRONG VĂN BẢN (Footnote Reference Marks):
   * Đánh dấu số thứ tự chú thích dưới dạng chỉ số trên (Superscript): `<sup>[1]</sup>`, `<sup>[2]</sup>` hoặc `<sup>\*</sup>`.
 - KHỐI GIẢI NGHĨA CHÂN TRANG (Footnotes Container):

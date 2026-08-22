@@ -31,8 +31,7 @@ Nhiệm vụ của bạn là: Trích xuất văn bản từ tệp PDF scan đín
   * BẮT BUỘC gộp toàn bộ các đoạn văn liên tục vào MỘT khối container duy nhất sử dụng **CSS Multi-Columns** như dưới đây:
     `<div style="columns: 2; column-gap: 28px; column-rule: 1px solid #cbd5e1; column-fill: balance; text-align: justify;" class="multi-column-flow">`
       `<p style="margin-bottom: 1lh; line-height: 1.6;">Nội dung văn bản gốc liên tục chảy tự nhiên từ cột 1 sang cột 2...</p>`
-    `</div>`
-    - Với riêng thuộc tính `column-rule: 1px solid #cbd5e1;` trong `style` của thẻ `<div>` ở trên dùng để tạo đường kẻ dọc phân chia cột báo chí (Vertical Column Divider / Rule). Nếu nội dung gốc có chia cột, nhưng không có đường phân chia giữa 2 cột, bạn được phép bỏ thuộc tính `column-rule: 1px solid #cbd5e1;` đi để trung thành với thiết kế của tài liệu gốc.  
+    `</div>` 
   * Trình duyệt sẽ tự động rót dòng chữ từ chân cột 1 lên đỉnh cột 2 và cân bằng chiều cao 2 cột bằng nhau chằn chặn (Column Height Balancing), không bao giờ bị hụt chữ hay ngắt câu vô lý.
 - HAI LUỒNG SONG SONG ĐỘC LẬP (Parallel Independent Streams - Bảng đối chiếu song ngữ, 2 bảng số liệu độc lập):
   * Lúc này mới dùng Flexbox/CSS Grid hai bên: `<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px;">`.

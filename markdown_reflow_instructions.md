@@ -23,7 +23,7 @@ Nhiệm vụ của bạn là trích xuất văn bản từ tệp PDF scan đính
 - Bố cục nhiều cột (Continuous Multi-column Flow): Nếu tài liệu in 2 hoặc 3 cột (báo chí, tạp chí, từ điển), hãy **đọc theo đúng thứ tự logic tự nhiên của bài viết và gộp thành một luồng đọc duy nhất**.
 
 2. LOẠI BỎ RÁC TRANG IN & KHỬ NHIỄU SCAN (DOCUMENT DENOISING & ARTIFACT FILTERING):
-- Bỏ qua tiêu đề lặp lại cơ học: Tiêu đề đầu trang lặp lại ở các trang ruột (Running Header), tiêu đề chân trang lặp lại (Running Footer), số trang (Folios / Page numbers), vạch kẻ trang trí mép giấy, watermark.
+- Bỏ qua tiêu đề lặp lại cơ học: Tiêu đề đầu trang (Running Header) lặp lại ở các trang ruột, tiêu đề chân trang (Running Footer) lặp lại, số trang (Folios / Page numbers), vạch kẻ trang trí mép giấy, watermark.
 - BẢO TỒN TIÊU ĐỀ TRANG BÌA & TRANG ĐẦU ẤN PHẨM:
   * Tại trang bìa, trang nhan đề, hoặc trang nhất của báo/tạp chí: BẮT BUỘC trích xuất đầy đủ 100% mọi tiêu đề trên cùng, tiêu đề phụ, tên cơ quan chủ quản, thông tin giấy phép (ví dụ: các dòng tiếng Pháp/tiếng Hán/tiếng Việt định danh ấn phẩm nằm trên đỉnh tên báo). TUYỆT ĐỐI KHÔNG coi các thông tin này là Running Header để bỏ qua.
 - Loại bỏ triệt để mọi tạp âm vật lý xuất hiện trên bản scan:

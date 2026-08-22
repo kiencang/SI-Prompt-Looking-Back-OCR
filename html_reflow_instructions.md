@@ -112,9 +112,11 @@ Nếu phát hiện trong tài liệu gốc có các biểu thức, phương trì
     `</div>`
 - TIÊU ĐỀ LẶP ĐẦU TRANG & SỐ TRANG IN (RUNNING HEADERS & FOLIOS):
   * Tuyệt đối KHÔNG trộn các tiêu đề lặp đầu trang (ví dụ: "NAM PHONG 84", "TẠP CHÍ TRI TÂN", số trang in gốc) vào giữa dòng chảy của các đoạn văn chính.
-  * BẮT BUỘC dùng thẻ với class `running-header` (KHÔNG viết thêm inline style, không thêm bớt thẻ):
+  * BẮT BUỘC dùng thẻ với class `running-header`:
     `<div class="running-header">NỘI_DUNG_CỦA_RUNNING_HEADER</div>`
     *(Trong đó thay NỘI_DUNG_CỦA_RUNNING_HEADER bằng nội dung thực tế mà bạn quan sát thấy trên running header của trang)*.
+Bạn biết rằng class `running-header` có CSS như thế này: `.running-header {font-size: 0.8rem !important; color: #94a3b8 !important; border-bottom: 1px solid #f1f5f9 !important; padding-bottom: 4px !important; margin-top: 8px !important; margin-bottom: 16px !important; font-weight: 500 !important; text-align: center !important; font-style: italic !important; letter-spacing: 0.05em !important; user-select: none !important;}`.
+Bạn có quyền bổ sung thêm inline style vào div này `<div class="running-header">NỘI_DUNG_CỦA_RUNNING_HEADER</div>` để nó trung thành nhất với bản gốc.
 
 9. ĐƯỜNG KẺ & VẠCH PHÂN CÁCH (DIVIDERS & SEPARATORS):
 Khi tài liệu gốc sử dụng các đường kẻ ngang, kẻ đôi, bạn hãy linh hoạt tái tạo bằng các mẫu HTML/CSS để bảo toàn trải nghiệm thị giác, hãy học tập các mẫu bên dưới:

@@ -84,7 +84,7 @@ Nhiệm vụ của bạn là: Trích xuất văn bản từ tệp PDF scan đín
   * Giữ nguyên ký tự nếu nhận diện rõ ràng hoặc suy đoán được với mức độ chính xác cao.
   * Nếu gặp chữ bị mất nét, rách giấy, mờ nhòe KHÔNG THỂ đọc chính xác, dùng `<mark style="background-color: #fef08a; padding: 0 2px;">[?]</mark>`.
 - KHÔNG GÂY LỖI TOFU BOX (Ô vuông hiển thị) với chữ Hán, Nhật, Hàn:
-  * Tất cả các chữ Hán, Nhật, Hàn hoặc chữ Nôm inline đan xen trong dòng chữ Quốc ngữ BẮT BUỘC phải được nhận diện chính xác và bọc trong thẻ span có class `cjk` như dưới đây:
+  * Tất cả các chữ Hán, Nhật, Hàn hoặc chữ Nôm inline đan xen trong dòng chữ Quốc ngữ BẮT BUỘC phải được nhận diện chính xác và bọc trong thẻ span có class `cjk` như dưới đây (KHÔNG viết thêm inline style, không thêm bớt thẻ):
     `<span class="cjk">阮攸</span>`
 
 6. PHÂN CẤP TIÊU ĐỀ & ĐỊNH DẠNG CHỮ (TYPOGRAPHY & HEADING SCALE):
@@ -113,7 +113,7 @@ Nếu phát hiện trong tài liệu gốc có các biểu thức, phương trì
     `</div>`
 - TIÊU ĐỀ LẶP ĐẦU TRANG & SỐ TRANG IN (RUNNING HEADERS & FOLIOS):
   * Tuyệt đối KHÔNG trộn các tiêu đề lặp đầu trang (ví dụ: "NAM PHONG 84", "TẠP CHÍ TRI TÂN", số trang in gốc) vào giữa dòng chảy của các đoạn văn chính.
-  * BẮT BUỘC dùng thẻ với class chuẩn sau đây (KHÔNG viết inline style, không thêm bớt thẻ):
+  * BẮT BUỘC dùng thẻ với class `running-header` (KHÔNG viết thêm inline style, không thêm bớt thẻ):
     `<div class="running-header">NỘI_DUNG_CỦA_RUNNING_HEADER</div>`
     *(Trong đó thay NỘI_DUNG_CỦA_RUNNING_HEADER bằng nội dung thực tế mà bạn quan sát thấy trên running header của trang)*.
 

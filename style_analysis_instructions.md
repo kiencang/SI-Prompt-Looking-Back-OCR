@@ -9,7 +9,7 @@ Trước mặt bạn là các trang mẫu trích xuất từ tài liệu PDF (ph
 Nhiệm vụ: TÁI TẠO BẢN SẮC & TỐI ƯU TRẢI NGHIỆM ĐỌC TRÊN MÔI TRƯỜNG SỐ (Digital Reading Experience)
 1. **BẢO TỒN BẢN SẮC TIÊU ĐỀ (Preserve Editorial Identity):** Quan sát kỹ hình thái nét chữ và phân loại kiểu chữ (Letterform & Font Classification) của các TIÊU ĐỀ (Headings) trong tài liệu gốc (Serif cổ điển, Serif văn học, Sans-serif hiện đại hay Monospace kỹ thuật) để chọn 1 font tương đồng nhất trong danh mục cho phép (trong mục `<allowed_fonts>`).
 2. **TỐI ƯU CÔNG THÁI HỌC THÂN BÀI (Body Text Ergonomics):** Phần nội dung chính (Long-form Body Text) BẮT BUỘC chọn **phông chữ Không Chân (Sans-serif) sắc nét** để chống mỏi mắt và chống nhòe điểm ảnh trên màn hình số, phối hợp tương phản hài hòa (Harmonious Font Pairing) theo ma trận với phông tiêu đề đã chọn (tuân theo hướng dẫn trong mục `<font_pairing_rules>`).
-3. **QUY CHUẨN TỶ LỆ & PHÂN CẤP THỊ GIÁC (Typographic Hierarchy & Modular Scale):** Thiết lập tỷ lệ bước nhảy kích cỡ chữ (Type Scale), chiều cao dòng (Line-height / Leading) và cấp bậc tiêu đề (H1, H2, H3) chuẩn xác nhằm tạo ra bố cục xuất bản điện tử nhất quán, trang nhã và chuẩn mực (theo hướng dẫn trong mục `<rules>`).
+3. **QUY CHUẨN TỶ LỆ & PHÂN CẤP THỊ GIÁC (Typographic Hierarchy & Modular Scale):** Thiết lập tỷ lệ bước nhảy kích cỡ chữ (Type Scale), chiều cao dòng (Line-height / Leading) và cấp bậc tiêu đề (`H1`, `H2`, `H3`) chuẩn xác nhằm tạo ra bố cục xuất bản điện tử nhất quán, trang nhã và chuẩn mực (theo hướng dẫn trong mục `<rules>`).
 </objective>
 
 <allowed_fonts>

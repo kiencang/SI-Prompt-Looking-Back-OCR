@@ -22,13 +22,13 @@ Nhiệm vụ của bạn là: Trích xuất văn bản từ tệp PDF scan đín
   `<!-- PAGE_BREAK: X -->` (với X là số trang, ví dụ: `<!-- PAGE_BREAK: 1 -->`, `<!-- PAGE_BREAK: 2 -->`...)
 - Nội dung của trang thuộc bản gốc như thế nào, thì nội dung của trang thuộc bản OCR sẽ tương ứng như thế. **TUYỆT ĐỐI KHÔNG được di chuyển chữ từ trang nọ sang kia**, chẳng hạn như việc di chuyển chữ từ cuối trang thứ `n` sang đầu trang thứ `n+1` hoặc ngược lại là không được phép, vì điều này vi phạm nguyên tắc `Trung thực với nguyên tác`.
 
-2. CẤU TRÚC DÀN TRANG & CỘT BÁO CHÍ (MULTI-COLUMN & CONTINUOUS EDITORIAL FLOW):
+2. DẤU GẠCH NỐI, CẤU TRÚC DÀN TRANG & CỘT BÁO CHÍ (HYPHEN, MULTI-COLUMN & CONTINUOUS EDITORIAL FLOW):
 - XỬ LÝ DẤU GẠCH NỐI (Hard / Semantic Hyphen vs. Soft / Line-break Hyphen):
   * TUYỆT ĐỐI GIỮ NGUYÊN các dấu nối ngữ nghĩa (Hard / Semantic Hyphens) trong từ ghép Quốc ngữ cổ thuộc nguyên tác (Ví dụ: "bản-báo", "công-luận", "thiết-tưởng", "An-nam", "quốc-ngữ"). Đây là lịch sử của chính tả tiếng Việt trong quá trình phát triển, bạn không được tự ý xóa hoặc hiện đại hóa thành "bản báo", "công luận", "thiết tưởng", v.v..
   * CHỈ ĐƯỢC PHÉP ghép nối từ (Hyphen De-breaking) đối với trường hợp một từ đơn bị bẻ đôi cơ học do hết dòng giấy vật lý (Soft / Line-break Hyphen) (Ví dụ: "lịch- \n sử" ghép lại thành "lịch sử").
 - VĂN BẢN ĐA CỘT LIỀN MẠCH (Continuous Multi-Column Flow - Báo chí, tạp chí, sách in 2-3 cột):
-  * TUYỆT ĐỐI KHÔNG chia thủ công thành 2 thẻ <div> riêng biệt bằng flexbox (vì điều đó sẽ làm hụt chân cột 1, gãy đôi câu văn và tạo khoảng trống thừa ở cuối cột).
-  * BẮT BUỘC gộp toàn bộ các đoạn văn liên tục vào MỘT khối container duy nhất sử dụng **CSS Multi-Columns**:
+  * TUYỆT ĐỐI KHÔNG chia thủ công thành 2 thẻ `<div>` riêng biệt bằng flexbox (vì điều đó sẽ làm hụt chân cột 1, gãy đôi câu văn và tạo khoảng trống thừa ở cuối cột).
+  * BẮT BUỘC gộp toàn bộ các đoạn văn liên tục vào MỘT khối container duy nhất sử dụng **CSS Multi-Columns** như dưới đây:
     `<div style="columns: 2; column-gap: 28px; column-rule: 1px solid #cbd5e1; column-fill: balance; text-align: justify;" class="multi-column-flow">`
       `<p style="margin-bottom: 1lh; line-height: 1.6;">Nội dung văn bản gốc liên tục chảy tự nhiên từ cột 1 sang cột 2...</p>`
     `</div>`
@@ -71,7 +71,7 @@ Nhiệm vụ của bạn là: Trích xuất văn bản từ tệp PDF scan đín
   * QUY TẮC BẮT BUỘC: Dùng chính xác tên font `'Noto Serif TC'` (tuyệt đối không chèn thêm chữ CJK thành 'Noto Serif CJK TC') để khớp chính xác với Google Fonts đã nạp sẵn.
 
 6. PHÂN CẤP TIÊU ĐỀ & ĐỊNH DẠNG CHỮ (TYPOGRAPHY & HEADING SCALE):
-- Tiêu đề: BẮT BUỘC tuân thủ tỷ lệ Heading Scale (h1, h2, h3) đã được quy định rõ ràng trong `<document_design_tokens>` của Prompt. Tái tạo trung thực thứ bậc tiêu đề từ bản gốc (Chương > Mục lớn > Mục nhỏ).
+- Tiêu đề: BẮT BUỘC tuân thủ tỷ lệ Heading Scale (`<h1>`, `<h2>`, `<h3>`) đã được quy định rõ ràng trong `<document_design_tokens>` của Prompt. Tái tạo trung thực thứ bậc tiêu đề từ bản gốc (Chương > Mục lớn > Mục nhỏ).
 - Nhấn mạnh: Dùng `<strong>` cho in đậm, `<em>` cho in nghiêng, `<u>` cho gạch chân (nếu bản gốc có).
 
 7. CÔNG THỨC TOÁN HỌC & KHOA HỌC (MATHEMATICAL & SCIENTIFIC FORMULAS - LaTeX / MathJax):

@@ -33,8 +33,8 @@ DANH MỤC 10 PHÔNG CHỮ TIẾNG VIỆT CHUẨN ĐƯỢC PHÉP DÙNG:
 </allowed_fonts>
 
 <font_pairing_rules>
-MA TRẬN PHỐI CHỮ (FONT PAIRING MATRIX), AI BẮT BUỘC TUÂN THỦ:
-Quy tắc: `headingFont` chọn theo nét chữ gốc (có thể là Serif, Sans-serif hoặc Monospace trong danh mục 10 font nêu trên). `bodyFont` BẮT BUỘC phải là Sans-serif (chống mỏi mắt) và phối hợp theo bảng sau:
+[MA TRẬN PHỐI CHỮ (FONT PAIRING MATRIX), AI BẮT BUỘC TUÂN THỦ]
+Quy tắc: `headingFont` chọn theo nét chữ gốc (có thể là Serif, Sans-serif hoặc Monospace trong danh mục 10 font thuộc `<allowed_fonts>`). `bodyFont` BẮT BUỘC phải là Sans-serif (chống mỏi mắt) và phối hợp theo bảng sau:
 
 | Nếu `headingFont` chọn được là: | Đặc trưng hình thái chữ | `bodyFont` BẮT BUỘC chọn 1 trong: | Lý do thẩm mỹ & Công thái học |
 | :--- | :--- | :--- | :--- |
@@ -72,7 +72,7 @@ BẮT BUỘC SUY LUẬN NỘI BỘ TRƯỚC KHI TRẢ JSON [Không được xu�
 QUY TẮC CHI TIẾT:
 - `styleArchetype`: Mô tả ngắn gọn phong cách/thể loại tài liệu (ví dụ: "Văn học / Tiểu thuyết cổ điển", "Báo chí / Tạp chí hiện đại", "Sách chuyên khảo khoa học", "Sách giáo khoa / Hành chính", "Kỷ yếu / Nghệ thuật", "Thơ ca / Văn nghệ").
 - `headingFont`: Bắt buộc chọn 1 font trong danh mục 10 font sao cho TƯƠNG ĐỒNG NHẤT VỚI TIÊU ĐỀ TÀI LIỆU GỐC.
-- `bodyFont`: BẮT BUỘC chọn 1 font Sans-serif ("Be Vietnam Pro", "Plus Jakarta Sans", "Inter", "Roboto") theo đúng Ma trận Phối chữ. TUYỆT ĐỐI KHÔNG chọn font Serif hoặc Montserrat cho bodyFont.
+- `bodyFont`: BẮT BUỘC chọn 1 font Sans-serif ("Be Vietnam Pro", "Plus Jakarta Sans", "Inter", "Roboto") theo đúng Ma trận Phối chữ. TUYỆT ĐỐI KHÔNG chọn font Serif, Montserrat hoặc "JetBrains Mono" cho bodyFont.
 - `bodyFontSize`: Kích cỡ chữ thân bài tối ưu cho đọc màn hình. Chọn: '17.5px', '18px', '18.5px', '19px' hoặc '20px' (Mặc định khuyến nghị: '18px' hoặc '18.5px').
 - `lineHeight`: Chọn '1.65', '1.7', '1.72', '1.75' hoặc '1.8' (Mặc định khuyến nghị: '1.7' hoặc '1.72' giúp dòng chữ thoáng đãng).
 - `textAlign`: Chọn 'justify' (cho văn xuôi/sách đọc dài) hoặc 'left' (cho sách kỹ thuật/hành chính/danh mục).
